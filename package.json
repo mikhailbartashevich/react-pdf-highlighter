@@ -1,6 +1,6 @@
 {
   "name": "m-react-pdf-highlighter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Set of React components for PDF annotation",
   "author": "Mikhail Bartashevich <mikhailbartashevich@gmail.com>",
   "license": "MIT",
@@ -40,10 +40,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agentcooper/react-pdf-highlighter.git"
+    "url": "git+https://github.com/mikhailbartashevich/react-pdf-highlighter.git"
   },
   "bugs": {
-    "url": "https://github.com/agentcooper/react-pdf-highlighter/issues"
+    "url": "https://github.com/mikhailbartashevich/react-pdf-highlighter/issues"
   },
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.6",
