@@ -2,7 +2,7 @@
   "name": "mikhailbartashevich-react-pdf-highlighter",
   "version": "1.0.0",
   "description": "Set of React components for PDF annotation",
-  "author": "Artem Tyurin <artem.tyurin@gmail.com>",
+  "author": "Mikhail Bartashevich <mikhailbartashevich@gmail.com>",
   "license": "MIT",
   "keywords": [
     "pdf",
