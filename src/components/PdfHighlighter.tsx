@@ -389,12 +389,21 @@ export class PdfHighlighter<T_HT extends IHighlight> extends PureComponent<
 
   renderTip = () => {
     const { tipPosition, tipChildren } = this.state;
-    if (!tipPosition) return null;
-
+    if (!tipPosition) {
+      return null;
+    }
     const { boundingRect, pageNumber } = tipPosition;
+
+    const pageView = this.viewer.getPageView(
+      (boundingRect.pageNumber || pageNumber) - 1
+    );
+
+    if (!pageView) {
+      return null;
+    }
+
     const page = {
-      node: this.viewer.getPageView((boundingRect.pageNumber || pageNumber) - 1)
-        .div,
+      node: pageView.div,
       pageNumber: boundingRect.pageNumber || pageNumber,
     };
 
