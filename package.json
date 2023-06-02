@@ -1,6 +1,6 @@
 {
-  "name": "mikhailbartashevich-react-pdf-highlighter",
-  "version": "1.0.0",
+  "name": "m-react-pdf-highlighter",
+  "version": "1.0.1",
   "description": "Set of React components for PDF annotation",
   "author": "Mikhail Bartashevich <mikhailbartashevich@gmail.com>",
   "license": "MIT",
